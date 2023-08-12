@@ -48,7 +48,7 @@ def Grupos():
             N = 3
             R = 2
 
-            driver = webdriver.Edge()
+            driver = webdriver.Chrome()
             driver.delete_all_cookies()
             driver.set_window_size(1200, 700)
             driver.set_window_position(350, 0)

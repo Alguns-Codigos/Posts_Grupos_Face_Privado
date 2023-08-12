@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92d656af-1634-49ad-ac7e-7fb7d57ecfaa" name="Changes" comment="12-08-2023" />
+    <list default="true" id="92d656af-1634-49ad-ac7e-7fb7d57ecfaa" name="Changes" comment="12-08-2023">
+      <change beforePath="$PROJECT_DIR$/Pagina_Postar_Grupos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pagina_Postar_Grupos.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691876614573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="12-08-2023">
+      <created>1691876804253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691876804253</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
