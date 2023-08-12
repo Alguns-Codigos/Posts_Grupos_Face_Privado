@@ -27,7 +27,7 @@ def Grupos():
     TEXTO = t1.text_area('DESCRIÇÃO:'.title(),base, height=300)
 
     t2.text('Midia')
-    t2.video(ARQUIV)
+    #t2.video(ARQUIV)
 
     t0,t1, t2 = st.columns([0.6,0.3,2])
     t0.text('De quantos em quanto Minutos ->')
