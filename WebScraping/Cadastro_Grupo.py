@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException, StaleElementRefer
 from selenium.webdriver.common.by import By
 from  Banco_Dados_Campanha  import ATUAL_USUARIO
 from time import sleep
-import pyautogui
+
 from datetime import datetime
 import random
 # velocidade
@@ -90,6 +90,7 @@ print('print das start horas', Horas_in)
 LISTA = ['PRODUTO', 'TEXTO', 'ARQUIVO', 'NOME_PAGINA', 'LINK_PAGINA']
 
 def Post_Montado_Produto(driver,MIM,TEXTO,ARQUIVO):
+    import pyautogui
     import streamlit as st
     try:
         #st.write( PRODUTO, TEXTO, ARQUIVO, NOME_PAGINA, LINK_PAGINA)
@@ -154,6 +155,7 @@ def Post_Montado_Produto(driver,MIM,TEXTO,ARQUIVO):
 
 
 def Cadastro_Grupos(driver,MIM, LOGUIN,TEXTO, ARQUIVO):
+    import pyautogui
     # ========================================================= LIBERAR TODOS GRUPOS========== ===================================
 
     # Carrega a nova aba
