@@ -2,7 +2,7 @@ import shutil
 import streamlit as st
 from Func_Streamlit import *
 
-# streamlit run APP.py
+# streamlit run streamlit_app.py
 
 
 COR_MENU = ''
