@@ -48,7 +48,9 @@ def Grupos():
             N = 3
             R = 2
 
-            driver = webdriver.Chrome()
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument('--headless')
+            driver = webdriver.Chrome(options=chrome_options)
             driver.delete_all_cookies()
             driver.set_window_size(1200, 700)
             driver.set_window_position(350, 0)
